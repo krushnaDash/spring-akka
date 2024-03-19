@@ -2,8 +2,9 @@ package com.ur.akka.fsm.springakka.state;
 
 import akka.serialization.jackson.JsonSerializable;
 
-public record Tender (
-	String paymentHandle,
+public record Settlement (
+	String status,	
 	String amount,
-	String paymentType
-) implements JsonSerializable{}
+	String clientMatcherId
+
+)implements JsonSerializable {}

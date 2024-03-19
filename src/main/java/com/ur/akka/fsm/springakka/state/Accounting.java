@@ -4,8 +4,8 @@ import akka.serialization.jackson.JsonSerializable;
 
 public record Accounting (
 
-	String accountingReceivableName,
-	String PostingDate,
+	String receivableName,
+	String postingDate,
 	String paymentHandle,
 	String amount
 

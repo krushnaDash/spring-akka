@@ -56,6 +56,31 @@
 			<groupId>com.typesafe.akka</groupId>
 			<artifactId>akka-persistence-query_${scala.binary.version}</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>com.lightbend.akka</groupId>
+			<artifactId>akka-projection-core_${scala.binary.version}</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.lightbend.akka</groupId>
+			<artifactId>akka-projection-cassandra_${scala.binary.version}</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.lightbend.akka</groupId>
+			<artifactId>akka-projection-jdbc_${scala.binary.version}</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.lightbend.akka</groupId>
+			<artifactId>akka-projection-eventsourced_${scala.binary.version}</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.typesafe.akka</groupId>
 			<artifactId>akka-cluster-tools_${scala.binary.version}</artifactId>
